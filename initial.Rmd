@@ -12,6 +12,13 @@ library(dplyr)
 ```
 
 ```{r read-data}
-
+follow <- read.csv("follow.csv")
+library <- read.csv("library.csv")
+search <- read.csv("search.csv")
+stream0 <- read.csv("stream0.csv")
+stream1 <- read.csv("stream1.csv")
+stream2 <- read.csv("stream2.csv")
+stream3 <- read.csv("stream3.csv")
+stream4 <- read.csv("stream4.csv")
 ```
 
