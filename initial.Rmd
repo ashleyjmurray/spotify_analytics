@@ -8,16 +8,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-library(rjson)
+library(dplyr)
 ```
 
 ```{r read-data}
-follow <- fromJSON(file="MyData/Follow.json")
-playlist <- fromJSON(file="MyData/Playlist1.json")
-search <- fromJSON(file="MyData/SearchQueries.json")
-streaming1 <- fromJSON(file="MyData/StreamingHistory0.json")
-streaming2 <- fromJSON(file="MyData/StreamingHistory1.json")
-streaming3 <- fromJSON(file="MyData/StreamingHistory2.json")
-streaming4 <- fromJSON(file="MyData/StreamingHistory3.json")
-library <- fromJSON(file="MyData/YourLibrary.json")
+
 ```
+
